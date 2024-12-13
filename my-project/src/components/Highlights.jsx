@@ -2,7 +2,8 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { rightImg, watchImg } from "../utils"
 
-// import VideoCarousel from './VideoCarousel';
+import VideoCarousel from './VideoCarousel';
+import CloserLook from "./CloserLook";
 
 const Highlights = () => {
   useGSAP(() => {
@@ -29,6 +30,7 @@ const Highlights = () => {
         </div>
 
         <VideoCarousel />
+        {/* <CloserLook/> */}
       </div>
     </section>
   )
