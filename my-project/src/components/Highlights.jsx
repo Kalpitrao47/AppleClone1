@@ -4,6 +4,7 @@ import { rightImg, watchImg } from "../utils"
 
 import VideoCarousel from './VideoCarousel';
 import CloserLook from "./CloserLook";
+import Model from "./Model";
 
 const Highlights = () => {
   useGSAP(() => {
@@ -31,6 +32,7 @@ const Highlights = () => {
 
         <VideoCarousel />
         {/* <CloserLook/> */}
+        <Model/>
       </div>
     </section>
   )

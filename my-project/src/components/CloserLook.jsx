@@ -3,96 +3,349 @@ import React from 'react'
 const CloserLook = () => {
     return (
         <section class="section section-product-viewer no-pad-top staggered-end" data-anim-scroll-group="Product Viewer" data-analytics-section-engagement="name:closer look gallery" data-component-list="StaggeredFadeIn">
-            <div class="viewport-content">
-                <header class="section-header row">
-                    <h2 class="section-header-headline typography-section-header-headline" data-staggered-item="" style={""}>Take a closer look.</h2>
-                    <div class="section-header-cta-list-wrapper">
-                        <ul class="section-header-cta-list typography-section-header-link column">
-                            <li class="section-header-cta-item section-header-cta-item-ar-real-time" data-staggered-item="" style={""}>
-                                <span id="productViewerARLink" class="ar-link typography-tout-reduced section-header-cta-link" data-component-list="ArLink"><a class="icon icon-arkit icon-after" rel="ar" href="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4/iphone-16/iphone-16-iphone-16-plus-ultramarine-sim.usdz" data-default-path="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4/iphone-16/iphone-16-iphone-16-plus-ultramarine-sim.usdz" data-aap-id="aap-product-viewer" data-url-root="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4" data-url-product="iphone-16" data-url-option-map="{ &quot;large__Blue&quot;: { &quot;model&quot;: &quot;iphone-16-plus-ultramarine-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view ultramarine iphone 16 plus in ar&quot;, &quot;acaTitle&quot;: &quot;view ultramarine iphone 16 plus in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.7 inches iPhone 16 Plus in Ultramarine&quot; }, &quot;large__Green&quot;: { &quot;model&quot;: &quot;iphone-16-plus-teal-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view teal iphone 16 plus in ar&quot;, &quot;acaTitle&quot;: &quot;view teal iphone 16 plus in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.7 inches iPhone 16 Plus in Teal&quot; }, &quot;large__Pink&quot;: { &quot;model&quot;: &quot;iphone-16-plus-pink-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view pink iphone 16 plus in ar&quot;, &quot;acaTitle&quot;: &quot;view pink iphone 16 plus in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.7 inches iPhone 16 Plus in Pink&quot; }, &quot;large__White&quot;: { &quot;model&quot;: &quot;iphone-16-plus-white-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view white iphone 16 plus in ar&quot;, &quot;acaTitle&quot;: &quot;view white iphone 16 plus in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.7 inches iPhone 16 Plus in White&quot; }, &quot;large__Black&quot;: { &quot;model&quot;: &quot;iphone-16-plus-black-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view black iphone 16 plus in ar&quot;, &quot;acaTitle&quot;: &quot;view black iphone 16 plus in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.7 inches iPhone 16 Plus in Black&quot; }, &quot;small__Blue&quot;: { &quot;model&quot;: &quot;iphone-16-ultramarine-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view ultramarine iphone 16 in ar&quot;, &quot;acaTitle&quot;: &quot;view ultramarine iphone 16 in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 in Ultramarine&quot; }, &quot;small__Green&quot;: { &quot;model&quot;: &quot;iphone-16-teal-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view teal iphone 16 in ar&quot;, &quot;acaTitle&quot;: &quot;view teal iphone 16 in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 in Teal&quot; }, &quot;small__Pink&quot;: { &quot;model&quot;: &quot;iphone-16-pink-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view pink iphone 16 in ar&quot;, &quot;acaTitle&quot;: &quot;view pink iphone 16 in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 in Pink&quot; }, &quot;small__White&quot;: { &quot;model&quot;: &quot;iphone-16-white-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view white iphone 16 in ar&quot;, &quot;acaTitle&quot;: &quot;view white iphone 16 in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 in White&quot; }, &quot;small__Black&quot;: { &quot;model&quot;: &quot;iphone-16-black-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view black iphone 16 in ar&quot;, &quot;acaTitle&quot;: &quot;view black iphone 16 in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 in Black&quot; }, &quot;all-colors&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-ultramarine-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus&quot; }, &quot;Blue&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-ultramarine-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view ultramarine iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view ultramarine iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Ultramarine&quot; }, &quot;Green&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-teal-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view teal iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view teal iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Teal&quot; }, &quot;Pink&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-pink-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view pink iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view pink iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Pink&quot; }, &quot;White&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-white-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view white iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view white iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in White&quot; }, &quot;Black&quot;: { &quot;model&quot;: &quot;iphone-16-iphone-16-plus-black-sim.usdz&quot;, &quot;acaClick&quot;: &quot;prop3:view black iphone 16 models in ar&quot;, &quot;acaTitle&quot;: &quot;view black iphone 16 models in ar&quot;, &quot;ariaLabel&quot;: &quot;View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Black&quot; } }" data-analytics-title="view iphone 16 models in ar" data-analytics-click="prop3:view iphone 16 models in ar" aria-label="View in your space, 6.7 inches iPhone 16 Plus and 6.1 inches iPhone 16, augmented reality object." data-analytics-intrapage-link="">
-                                    <img />
-                                    <span>View in your space</span></a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </header>
-            </div>
+            <div className="viewport-content">
+      <header className="section-header row">
+        <h2
+          className="section-header-headline typography-section-header-headline"
+          data-staggered-item=""
+          style={{}}
+        >
+          Take a closer look.
+        </h2>
+        <div className="section-header-cta-list-wrapper">
+          <ul className="section-header-cta-list typography-section-header-link column">
+            <li
+              className="section-header-cta-item section-header-cta-item-ar-real-time"
+              data-staggered-item=""
+              style={{}}
+            >
+              <span
+                id="productViewerARLink"
+                className="ar-link typography-tout-reduced section-header-cta-link"
+                data-component-list="ArLink"
+              >
+                <a
+                  className="icon icon-arkit icon-after"
+                  rel="ar"
+                  href="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4/iphone-16/iphone-16-iphone-16-plus-ultramarine-sim.usdz"
+                  data-default-path="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4/iphone-16/iphone-16-iphone-16-plus-ultramarine-sim.usdz"
+                  data-aap-id="aap-product-viewer"
+                  data-url-root="/105/media/ww/iphone/shared/ar/2024/1db11f29-1385-4ae5-bbfd-2c885f4463d4"
+                  data-url-product="iphone-16"
+                  data-url-option-map='{
+                    "large__Blue": {
+                      "model": "iphone-16-plus-ultramarine-sim.usdz",
+                      "acaClick": "prop3:view ultramarine iphone 16 plus in ar",
+                      "acaTitle": "view ultramarine iphone 16 plus in ar",
+                      "ariaLabel": "View in your space, 6.7 inches iPhone 16 Plus in Ultramarine"
+                    },
+                    "large__Green": {
+                      "model": "iphone-16-plus-teal-sim.usdz",
+                      "acaClick": "prop3:view teal iphone 16 plus in ar",
+                      "acaTitle": "view teal iphone 16 plus in ar",
+                      "ariaLabel": "View in your space, 6.7 inches iPhone 16 Plus in Teal"
+                    },
+                    "large__Pink": {
+                      "model": "iphone-16-plus-pink-sim.usdz",
+                      "acaClick": "prop3:view pink iphone 16 plus in ar",
+                      "acaTitle": "view pink iphone 16 plus in ar",
+                      "ariaLabel": "View in your space, 6.7 inches iPhone 16 Plus in Pink"
+                    },
+                    "large__White": {
+                      "model": "iphone-16-plus-white-sim.usdz",
+                      "acaClick": "prop3:view white iphone 16 plus in ar",
+                      "acaTitle": "view white iphone 16 plus in ar",
+                      "ariaLabel": "View in your space, 6.7 inches iPhone 16 Plus in White"
+                    },
+                    "large__Black": {
+                      "model": "iphone-16-plus-black-sim.usdz",
+                      "acaClick": "prop3:view black iphone 16 plus in ar",
+                      "acaTitle": "view black iphone 16 plus in ar",
+                      "ariaLabel": "View in your space, 6.7 inches iPhone 16 Plus in Black"
+                    },
+                    "small__Blue": {
+                      "model": "iphone-16-ultramarine-sim.usdz",
+                      "acaClick": "prop3:view ultramarine iphone 16 in ar",
+                      "acaTitle": "view ultramarine iphone 16 in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 in Ultramarine"
+                    },
+                    "small__Green": {
+                      "model": "iphone-16-teal-sim.usdz",
+                      "acaClick": "prop3:view teal iphone 16 in ar",
+                      "acaTitle": "view teal iphone 16 in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 in Teal"
+                    },
+                    "small__Pink": {
+                      "model": "iphone-16-pink-sim.usdz",
+                      "acaClick": "prop3:view pink iphone 16 in ar",
+                      "acaTitle": "view pink iphone 16 in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 in Pink"
+                    },
+                    "small__White": {
+                      "model": "iphone-16-white-sim.usdz",
+                      "acaClick": "prop3:view white iphone 16 in ar",
+                      "acaTitle": "view white iphone 16 in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 in White"
+                    },
+                    "small__Black": {
+                      "model": "iphone-16-black-sim.usdz",
+                      "acaClick": "prop3:view black iphone 16 in ar",
+                      "acaTitle": "view black iphone 16 in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 in Black"
+                    },
+                    "all-colors": {
+                      "model": "iphone-16-iphone-16-plus-ultramarine-sim.usdz",
+                      "acaClick": "prop3:view iphone 16 models in ar",
+                      "acaTitle": "view iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus"
+                    },
+                    "Blue": {
+                      "model": "iphone-16-iphone-16-plus-ultramarine-sim.usdz",
+                      "acaClick": "prop3:view ultramarine iphone 16 models in ar",
+                      "acaTitle": "view ultramarine iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Ultramarine"
+                    },
+                    "Green": {
+                      "model": "iphone-16-iphone-16-plus-teal-sim.usdz",
+                      "acaClick": "prop3:view teal iphone 16 models in ar",
+                      "acaTitle": "view teal iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Teal"
+                    },
+                    "Pink": {
+                      "model": "iphone-16-iphone-16-plus-pink-sim.usdz",
+                      "acaClick": "prop3:view pink iphone 16 models in ar",
+                      "acaTitle": "view pink iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Pink"
+                    },
+                    "White": {
+                      "model": "iphone-16-iphone-16-plus-white-sim.usdz",
+                      "acaClick": "prop3:view white iphone 16 models in ar",
+                      "acaTitle": "view white iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in White"
+                    },
+                    "Black": {
+                      "model": "iphone-16-iphone-16-plus-black-sim.usdz",
+                      "acaClick": "prop3:view black iphone 16 models in ar",
+                      "acaTitle": "view black iphone 16 models in ar",
+                      "ariaLabel": "View in your space, 6.1 inches iPhone 16 and 6.7 inches iPhone 16 Plus in Black"
+                    }
+                  }'
+                  data-analytics-title="view iphone 16 models in ar"
+                  data-analytics-click="prop3:view iphone 16 models in ar"
+                  aria-label="View in your space, 6.7 inches iPhone 16 Plus and 6.1 inches iPhone 16, augmented reality object."
+                  data-analytics-intrapage-link=""
+                >
+                  <img alt="AR model" />
+                  <span>View in your space</span>
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
             <div class="viewer-wrapper" data-component-list="CustomProductScene" data-library-path="/v/iphone-16/d/static/libs/lotus.min.js">
                 <div class="product-viewer-container">
                     <div class="product-viewer gallery">
                         <div class="product-viewer-base" data-aap-id="aap-product-viewer-fallback" id="real-time-viewer-base-xp-gallery" data-analytics-gallery-id="closer look 2d gallery" aria-label="A gallery of devices" data-component-list="ProductViewerBase" tabindex="-1" data-ar-id="productViewerARLink">
-                            <div class="all-access-pass__container">
-                                <div class="all-access-pass aap-product-viewer" id="aap-product-viewer-fallback" data-aap-type="product-viewer" data-aap-level="1" data-aap-kf="{ &quot;start&quot;: &quot;a0t - 75vh&quot;, &quot;end&quot;: &quot;a0b - 75vh&quot;, &quot;anchors&quot;: [&quot;.section-product-viewer&quot;] }" data-aap-name="all-access-pass" data-aap-enabled="true" data-component-list=" ProductViewer">
-                                    <div class="aap-product-viewer-label">
-                                        {/* <span id="all-colors" class="aap-product-viewer-label-item active" data-token="1">15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in five colours</span> <span id="Black" class="aap-product-viewer-label-item" data-token="11">17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and<br class="small" /> 15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in Black</span> <span id="Blue" class="aap-product-viewer-label-item" data-token="2">17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and<br class="small"> 15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in Ultramarine</span> <span id="Green" class="aap-product-viewer-label-item" data-token="3">17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and<br class="small"> 15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in Teal</span> <span id="Pink" class="aap-product-viewer-label-item" data-token="5">17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and<br class="small"> 15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in Pink</span> <span id="White" class="aap-product-viewer-label-item" data-token="7">17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and<br class="small"> 15.54 cm (6.1″) iPhone&nbsp;16<sup class="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in White</span> */}
-                                    </div>
-                                    <div class="colornav colornav-neutral viewer-colornav all-access-pass__background">
-                                        <ul class="colornav-items viewer-colornav-items" role="radiogroup">
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 0"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-all-colors" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-0" value="All" data-index="0" data-viewer-value="all-colors" data-default-color="true" checked="" data-analytics-intrapage-link="" aria-label="15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in five colours" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-all-colors" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-all-colors">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            All
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 1"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-Blue" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-1" value="Ultramarine" data-index="1" data-viewer-value="Blue" data-analytics-intrapage-link="" aria-label="17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus Footnote 2 and 15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in Ultramarine" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-Blue" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Blue">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            Ultramarine
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 2"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-Green" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-2" value="Teal" data-index="2" data-viewer-value="Green" data-analytics-intrapage-link="" aria-label="17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus Footnote 2 and 15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in Teal" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-Green" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Green">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            Teal
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 3"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-Pink" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-3" value="Pink" data-index="3" data-viewer-value="Pink" data-analytics-intrapage-link="" aria-label="17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus Footnote 2 and 15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in Pink" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-Pink" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Pink">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            Pink
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 4"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-White" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-4" value="White" data-index="4" data-viewer-value="White" data-analytics-intrapage-link="" aria-label="17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus Footnote 2 and 15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in White" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-White" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-White">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            White
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                            <li class="colornav-item viewer-colornav-item" style={"--color-index: 5"}>
-                                                <input id="aap-product-viewer-fallback-viewer-colornav-value-Black" type="radio" name="viewer-colornav-value-color-selector-aap-product-viewer-fallback" class="colornav-value viewer-ui-item viewer-colornav-value" autocomplete="off" data-input-type="color-selector" data-input-id="color-selector" data-focus-expression="{ &quot;expression&quot;: &quot;a0b - 90vh&quot;, &quot;anchors&quot;: [&quot;.product-viewer-base&quot;], &quot;tabindex&quot;: &quot;0&quot;, &quot;focus-delay&quot;: &quot;true&quot; }" data-focus-enabled-when="enhanced" data-ac-gallery-trigger="my-cool-gallery-item-5" value="Black" data-index="5" data-viewer-value="Black" data-analytics-intrapage-link="" aria-label="17.00 cm (6.7″) iPhone&nbsp;16&nbsp;Plus Footnote 2 and 15.54 cm (6.1″) iPhone&nbsp;16 Footnote 2 in Black" tabindex="0" />
-                                                <label for="aap-product-viewer-fallback-viewer-colornav-value-Black" class="colornav-link viewer-colornav-link" aria-hidden="true">
-                                                    <span class="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Black">
-                                                        <span class="colornav-label viewer-colornav-label">
-                                                            Black
-                                                        </span>
-                                                    </span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="all-access-pass__container">
+      <div
+        className="all-access-pass aap-product-viewer"
+        id="aap-product-viewer-fallback"
+        data-aap-type="product-viewer"
+        data-aap-level="1"
+        data-aap-kf='{ "start": "a0t - 75vh", "end": "a0b - 75vh", "anchors": [".section-product-viewer"] }'
+        data-aap-name="all-access-pass"
+        data-aap-enabled="true"
+        data-component-list="ProductViewer"
+      >
+        <div className="aap-product-viewer-label">
+          {/* 
+          <span id="all-colors" className="aap-product-viewer-label-item active" data-token="1">
+            15.54 cm (6.1″) iPhone 16<sup className="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in five colours
+          </span>
+          <span id="Black" className="aap-product-viewer-label-item" data-token="11">
+            17.00 cm (6.7″) iPhone 16 Plus<sup className="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> and
+            15.54 cm (6.1″) iPhone 16<sup className="footnote footnote-number"><a href="#footnote-3" aria-label="Footnote 2" data-modal-close="">2</a></sup> in Black
+          </span> 
+          */}
+        </div>
+        <div className="colornav colornav-neutral viewer-colornav all-access-pass__background">
+          <ul className="colornav-items viewer-colornav-items" role="radiogroup">
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 0 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-all-colors"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-0"
+                value="All"
+                data-index="0"
+                data-viewer-value="all-colors"
+                data-default-color="true"
+                checked
+                aria-label="15.54 cm (6.1″) iPhone 16 Footnote 2 in five colours"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-all-colors"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-all-colors">
+                  <span className="colornav-label viewer-colornav-label">All</span>
+                </span>
+              </label>
+            </li>
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 1 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-Blue"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-1"
+                value="Ultramarine"
+                data-index="1"
+                data-viewer-value="Blue"
+                aria-label="17.00 cm (6.7″) iPhone 16 Plus Footnote 2 and 15.54 cm (6.1″) iPhone 16 Footnote 2 in Ultramarine"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-Blue"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Blue">
+                  <span className="colornav-label viewer-colornav-label">Ultramarine</span>
+                </span>
+              </label>
+            </li>
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 2 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-Green"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-2"
+                value="Teal"
+                data-index="2"
+                data-viewer-value="Green"
+                aria-label="17.00 cm (6.7″) iPhone 16 Plus Footnote 2 and 15.54 cm (6.1″) iPhone 16 Footnote 2 in Teal"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-Green"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Green">
+                  <span className="colornav-label viewer-colornav-label">Teal</span>
+                </span>
+              </label>
+            </li>
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 3 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-Pink"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-3"
+                value="Pink"
+                data-index="3"
+                data-viewer-value="Pink"
+                aria-label="17.00 cm (6.7″) iPhone 16 Plus Footnote 2 and 15.54 cm (6.1″) iPhone 16 Footnote 2 in Pink"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-Pink"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Pink">
+                  <span className="colornav-label viewer-colornav-label">Pink</span>
+                </span>
+              </label>
+            </li>
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 4 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-White"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-4"
+                value="White"
+                data-index="4"
+                data-viewer-value="White"
+                aria-label="17.00 cm (6.7″) iPhone 16 Plus Footnote 2 and 15.54 cm (6.1″) iPhone 16 Footnote 2 in White"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-White"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-White">
+                  <span className="colornav-label viewer-colornav-label">White</span>
+                </span>
+              </label>
+            </li>
+            <li className="colornav-item viewer-colornav-item" style={{ "--color-index": 5 }}>
+              <input
+                id="aap-product-viewer-fallback-viewer-colornav-value-Black"
+                type="radio"
+                name="viewer-colornav-value-color-selector-aap-product-viewer-fallback"
+                className="colornav-value viewer-ui-item viewer-colornav-value"
+                autoComplete="off"
+                data-input-type="color-selector"
+                data-input-id="color-selector"
+                data-focus-expression='{"expression": "a0b - 90vh", "anchors": [".product-viewer-base"], "tabindex": "0", "focus-delay": "true"}'
+                data-focus-enabled-when="enhanced"
+                data-ac-gallery-trigger="my-cool-gallery-item-5"
+                value="Black"
+                data-index="5"
+                data-viewer-value="Black"
+                aria-label="17.00 cm (6.7″) iPhone 16 Plus Footnote 2 and 15.54 cm (6.1″) iPhone 16 Footnote 2 in Black"
+                tabIndex="0"
+              />
+              <label
+                htmlFor="aap-product-viewer-fallback-viewer-colornav-value-Black"
+                className="colornav-link viewer-colornav-link"
+                aria-hidden="true"
+              >
+                <span className="colornav-swatch viewer-colornav-swatch viewer-colornav-swatch-Black">
+                  <span className="colornav-label viewer-colornav-label">Black</span>
+                </span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
                             <div class="gallery-wrapper" id="real-time-viewer-base-xp-gallery">
                                 <div class="item-container">
                                     <div id="real-time-viewer-base-xp-gallery-item-1" data-analytics-gallery-item-id="all colors" data-ac-gallery-item="all" data-gallery-item-theme="dark" class="gallery-item gallery-item-1 current" style="z-index: 2; opacity: 1; transform: translate(0px, 0px);">
