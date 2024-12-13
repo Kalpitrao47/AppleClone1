@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei';
 
 export function Model(props) {
   // Load the GLTF model
-  const { nodes, materials } = useGLTF('/iphone_16_pro_max.glb');
+  const { nodes, materials } = useGLTF('/models/iphone_16_pro_max.glb');
   
   return (
     <group {...props} dispose={null}>
@@ -126,7 +126,9 @@ export function Model(props) {
   );
 }
 
-// Preload the GLTF model to ensure it loads before rendering
-useGLTF.preload('/iphone_16_pro_max.glb');
-
 export default Model;
+
+// Preload the GLTF model to ensure it loads before rendering
+useGLTF.preload('/models/iphone_16_pro_max.glb');
+
+

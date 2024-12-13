@@ -4,6 +4,7 @@ import * as THREE from 'three'
 import Lights from './Lights';
 import Loader from './Loader';
 import IPhone from './IPhone';
+import IPhone2 from './IPhone2';
 import { Suspense } from "react";
 
 const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, size, item }) => {
@@ -20,7 +21,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
 
       <Lights />
 
-      <OrbitControls 
+      <OrbitControls  
         makeDefault
         ref={controlRef}
         enableZoom={false}
@@ -37,6 +38,11 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
             item={item}
             size={size}
           />
+          {/* <IPhone2 
+            scale={index === 1 ? [15, 15, 15] : [17, 17, 17]}
+            item={item}
+            size={size}
+          /> */}
         </Suspense>
       </group>
     </View>
